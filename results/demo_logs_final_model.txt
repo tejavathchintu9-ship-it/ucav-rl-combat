@@ -1,0 +1,212 @@
+Demo logs of the FINAL model (python run_ucav_demo.py --policy models\final\FINAL_bvr_eco_v1.zip --episodes 15 --debug, with UCAV_COMBAT=bvr).
+Two separate runs of 15 episodes, copied from the terminal. Set 1: 12 hits in 15. Set 2: 15 hits in 15.
+
+################ SET 1 ################
+=== Episode 1  seed=1873886277  scenario=neutral  enemy=attacker_anchor ===
+[t=  0.1s] ENEMY MISSILE LAUNCHED
+[t=  1.9s] MISSILE LAUNCHED  range=6451 m  ATA=4 deg
+[t=  9.2s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=9.2s   target hits so far: 1/1
+
+=== Episode 2  seed=1420109302  scenario=enemy_on_six  enemy=evader_stage3 ===
+[t= 11.0s] MISSILE LAUNCHED  range=2939 m  ATA=23 deg
+[t= 15.8s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=15.8s   target hits so far: 2/2
+
+=== Episode 3  seed=1406871036  scenario=head_on  enemy=evader_stage3 ===
+[t=  3.2s] MISSILE LAUNCHED  range=5961 m  ATA=18 deg
+[t= 13.1s] ENEMY MISSILE LAUNCHED
+[t= 14.2s] enemy missile defeated
+[t= 14.7s] ENEMY MISSILE LAUNCHED
+[t= 16.5s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=16.5s   target hits so far: 3/3
+
+=== Episode 4  seed=2022986888  scenario=neutral  enemy=attacker_anchor ===
+[t=  0.1s] ENEMY MISSILE LAUNCHED
+[t=  1.5s] MISSILE LAUNCHED  range=7624 m  ATA=49 deg
+[t= 13.5s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=13.5s   target hits so far: 4/4
+
+=== Episode 5  seed=2070406581  scenario=tail_chase  enemy=evader_stage3 ===
+[t= 10.1s] MISSILE LAUNCHED  range=6215 m  ATA=15 deg
+[t= 23.2s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=23.2s   target hits so far: 5/5
+
+=== Episode 6  seed=877571209  scenario=enemy_on_six  enemy=attacker_anchor ===
+[t=  1.1s] ENEMY MISSILE LAUNCHED
+[t=  8.2s] enemy missile defeated
+[t=  8.3s] ENEMY MISSILE LAUNCHED
+[t=  9.1s] MISSILE LAUNCHED  range=1771 m  ATA=80 deg
+[t= 10.2s] our missile missed
+[t= 12.1s] enemy missile defeated
+RESULT: NO HIT  (timeout)  t=150.0s   target hits so far: 5/6
+
+=== Episode 7  seed=1305781580  scenario=neutral  enemy=attacker_anchor ===
+[t=  5.5s] ENEMY MISSILE LAUNCHED
+[t= 15.0s] MISSILE LAUNCHED  range=12082 m  ATA=16 deg
+[t= 22.5s] enemy missile defeated
+[t= 22.6s] ENEMY MISSILE LAUNCHED
+[t= 23.7s] enemy missile defeated
+[t= 37.0s] our missile missed
+[t= 43.5s] MISSILE LAUNCHED  range=472 m  ATA=31 deg
+[t= 45.3s] our missile missed
+RESULT: NO HIT  (out_of_missiles)  t=45.3s   target hits so far: 5/7
+
+=== Episode 8  seed=1445729756  scenario=neutral  enemy=hold_policy ===
+[t=  2.5s] ENEMY MISSILE LAUNCHED
+[t=  3.4s] MISSILE LAUNCHED  range=9365 m  ATA=44 deg
+[t=  3.6s] enemy missile defeated
+[t=  3.9s] ENEMY MISSILE LAUNCHED
+[t= 17.7s] enemy missile defeated
+[t= 18.2s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=18.2s   target hits so far: 6/8
+
+=== Episode 9  seed=998315944  scenario=enemy_on_six  enemy=attacker_final ===
+[t=  2.6s] ENEMY MISSILE LAUNCHED
+[t=  5.8s] MISSILE LAUNCHED  range=3128 m  ATA=20 deg
+RESULT: UCAV HIT  (shot_down)  t=7.6s   target hits so far: 6/9
+
+=== Episode 10  seed=540088135  scenario=tail_chase  enemy=attacker_final ===
+[t=  3.5s] MISSILE LAUNCHED  range=5172 m  ATA=23 deg
+[t=  7.9s] ENEMY MISSILE LAUNCHED
+[t=  9.0s] enemy missile defeated
+[t= 13.1s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=13.1s   target hits so far: 7/10
+
+=== Episode 11  seed=1376272267  scenario=beam  enemy=attacker_anchor ===
+[t=  2.5s] ENEMY MISSILE LAUNCHED
+[t= 12.3s] MISSILE LAUNCHED  range=4074 m  ATA=34 deg
+[t= 13.3s] enemy missile defeated
+[t= 13.6s] ENEMY MISSILE LAUNCHED
+[t= 14.7s] enemy missile defeated
+[t= 18.7s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=18.7s   target hits so far: 8/11
+
+=== Episode 12  seed=573578268  scenario=neutral  enemy=attacker_final ===
+[t=  2.5s] MISSILE LAUNCHED  range=4414 m  ATA=17 deg
+[t= 11.3s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=11.3s   target hits so far: 9/12
+
+=== Episode 13  seed=1892663872  scenario=beam  enemy=attacker_anchor ===
+[t=  0.1s] ENEMY MISSILE LAUNCHED
+[t=  2.0s] MISSILE LAUNCHED  range=5852 m  ATA=9 deg
+[t=  9.4s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=9.4s   target hits so far: 10/13
+
+=== Episode 14  seed=325349981  scenario=enemy_on_six  enemy=evader_stage3 ===
+[t=  5.9s] MISSILE LAUNCHED  range=3272 m  ATA=28 deg
+[t= 10.9s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=10.9s   target hits so far: 11/14
+
+=== Episode 15  seed=2030283321  scenario=neutral  enemy=evader_stage3 ===
+[t= 14.3s] MISSILE LAUNCHED  range=3556 m  ATA=13 deg
+[t= 20.1s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=20.1s   target hits so far: 12/15
+
+################ SET 2 ################
+=== Episode 1  seed=237087670  scenario=tail_chase  enemy=attacker_final ===
+[t=  9.7s] ENEMY MISSILE LAUNCHED
+[t= 10.3s] MISSILE LAUNCHED  range=6687 m  ATA=48 deg
+[t= 10.8s] enemy missile defeated
+[t= 24.3s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=24.3s   target hits so far: 1/1
+
+=== Episode 2  seed=2078458748  scenario=head_on  enemy=attacker_anchor ===
+[t=  0.1s] ENEMY MISSILE LAUNCHED
+[t=  9.5s] MISSILE LAUNCHED  range=7642 m  ATA=17 deg
+[t= 16.6s] enemy missile defeated
+[t= 16.7s] ENEMY MISSILE LAUNCHED
+[t= 17.8s] enemy missile defeated
+[t= 20.6s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=20.6s   target hits so far: 2/2
+
+=== Episode 3  seed=898394547  scenario=neutral  enemy=attacker_final ===
+[t=  8.3s] MISSILE LAUNCHED  range=6146 m  ATA=24 deg
+[t= 19.2s] ENEMY MISSILE LAUNCHED
+[t= 20.0s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=20.0s   target hits so far: 3/3
+
+=== Episode 4  seed=84081241  scenario=beam  enemy=evader_stage3 ===
+[t=  5.6s] MISSILE LAUNCHED  range=4784 m  ATA=44 deg
+[t= 11.1s] ENEMY MISSILE LAUNCHED
+[t= 12.2s] enemy missile defeated
+[t= 16.0s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=16.0s   target hits so far: 4/4
+
+=== Episode 5  seed=2003086586  scenario=tail_chase  enemy=attacker_final ===
+[t=  5.5s] MISSILE LAUNCHED  range=4833 m  ATA=18 deg
+[t= 10.3s] ENEMY MISSILE LAUNCHED
+[t= 11.4s] enemy missile defeated
+[t= 14.7s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=14.7s   target hits so far: 5/5
+
+=== Episode 6  seed=596857818  scenario=tail_chase  enemy=hold_policy ===
+[t=  3.1s] ENEMY MISSILE LAUNCHED
+[t=  4.2s] MISSILE LAUNCHED  range=7508 m  ATA=37 deg
+[t=  4.2s] enemy missile defeated
+[t=  4.3s] ENEMY MISSILE LAUNCHED
+[t= 14.1s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=14.1s   target hits so far: 6/6
+
+=== Episode 7  seed=1486128889  scenario=enemy_on_six  enemy=attacker_final ===
+[t=  5.9s] MISSILE LAUNCHED  range=4952 m  ATA=18 deg
+[t= 13.6s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=13.6s   target hits so far: 7/7
+
+=== Episode 8  seed=444986948  scenario=enemy_on_six  enemy=attacker_final ===
+[t=  7.1s] MISSILE LAUNCHED  range=3455 m  ATA=15 deg
+[t= 11.7s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=11.7s   target hits so far: 8/8
+
+=== Episode 9  seed=1766904898  scenario=enemy_on_six  enemy=hold_policy ===
+[t=  0.7s] ENEMY MISSILE LAUNCHED
+[t= 10.5s] enemy missile defeated
+[t= 10.6s] ENEMY MISSILE LAUNCHED
+[t= 11.4s] MISSILE LAUNCHED  range=2831 m  ATA=41 deg
+[t= 11.7s] enemy missile defeated
+[t= 17.2s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=17.2s   target hits so far: 9/9
+
+=== Episode 10  seed=1168431766  scenario=beam  enemy=hold_policy ===
+[t=  3.5s] ENEMY MISSILE LAUNCHED
+[t=  4.1s] MISSILE LAUNCHED  range=4937 m  ATA=16 deg
+[t=  4.6s] enemy missile defeated
+[t=  4.7s] ENEMY MISSILE LAUNCHED
+[t= 10.5s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=10.5s   target hits so far: 10/10
+
+=== Episode 11  seed=1909506764  scenario=head_on  enemy=evader_stage3 ===
+[t=  4.6s] MISSILE LAUNCHED  range=6311 m  ATA=12 deg
+[t= 14.0s] ENEMY MISSILE LAUNCHED
+[t= 15.1s] enemy missile defeated
+[t= 16.4s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=16.4s   target hits so far: 11/11
+
+=== Episode 12  seed=769628239  scenario=beam  enemy=evader_stage3 ===
+[t=  5.0s] MISSILE LAUNCHED  range=5498 m  ATA=10 deg
+[t= 11.4s] ENEMY MISSILE LAUNCHED
+[t= 12.5s] enemy missile defeated
+[t= 12.6s] ENEMY MISSILE LAUNCHED
+[t= 13.7s] enemy missile defeated
+[t= 15.6s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=15.6s   target hits so far: 12/12
+
+=== Episode 13  seed=951656473  scenario=neutral  enemy=attacker_anchor ===
+[t=  1.5s] ENEMY MISSILE LAUNCHED
+[t=  3.4s] MISSILE LAUNCHED  range=5743 m  ATA=15 deg
+[t=  9.8s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=9.8s   target hits so far: 13/13
+
+=== Episode 14  seed=1386346275  scenario=tail_chase  enemy=hold_policy ===
+[t=  1.6s] ENEMY MISSILE LAUNCHED
+[t=  2.7s] enemy missile defeated
+[t=  4.9s] ENEMY MISSILE LAUNCHED
+[t=  5.7s] MISSILE LAUNCHED  range=6363 m  ATA=24 deg
+[t= 14.1s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=14.1s   target hits so far: 14/14
+
+=== Episode 15  seed=1680802617  scenario=enemy_on_six  enemy=attacker_anchor ===
+[t=  0.1s] ENEMY MISSILE LAUNCHED
+[t=  4.9s] MISSILE LAUNCHED  range=5035 m  ATA=17 deg
+[t= 13.6s] TARGET HIT
+RESULT: TARGET HIT  (target_hit)  t=13.6s   target hits so far: 15/15

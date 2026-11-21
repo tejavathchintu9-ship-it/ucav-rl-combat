@@ -1,0 +1,7 @@
+# Tested with Python 3.12 / 3.13.  CPU is enough (PyTorch CPU build is fine).
+panda3d>=1.10,<1.11
+gymnasium>=1.0
+stable-baselines3>=2.3
+torch>=2.2
+numpy>=1.26
+pytest>=8.0

@@ -1,0 +1,5 @@
+FINAL_bvr_eco_v1.zip               needs  UCAV_COMBAT=bvr  and  UCAV_REWARD=economy   (evaluate and demo: UCAV_COMBAT=bvr)
+learned_launch_default_physics.zip no preset (default physics); evaluate it with UCAV_COMBAT=bvr only to compare with the final model
+gated_baseline_8M.zip              needs  UCAV_ENVELOPE=gate  (it was trained with the hard launch window 800-7000 m)
+stage1_done / stage2_done / stage3_done   trained with the default physics (no preset); run them with --stage 1 / 2 / 3
+untrained_5k.zip                   6,144 training steps in stage 1, no skills; evaluate with UCAV_COMBAT=bvr (stage 4)
